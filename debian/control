@@ -50,8 +50,9 @@ Description: Integrated robotics GUI environment - shared data
 Package: choreonoid
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-	 libcnoid1 (= ${binary:Version}),
-	 choreonoid-data (= ${source:Version})
+  hrpsys-base,
+  libcnoid1 (= ${binary:Version}),
+  choreonoid-data (= ${source:Version})
 Suggests: choreonoid-doc
 Multi-Arch: foreign
 Description: Integrated robotics GUI environment
