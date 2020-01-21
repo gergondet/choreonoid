@@ -52,7 +52,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
   hrpsys-base,
   libcnoid1 (= ${binary:Version}),
-  choreonoid-data (= ${source:Version})
+  choreonoid-data (= ${binary:Version})
 Suggests: choreonoid-doc
 Multi-Arch: foreign
 Description: Integrated robotics GUI environment
