@@ -1,3 +1,9 @@
+choreonoid (1.7.0-1ubuntu3) unstable; urgency=medium
+
+  * Fix dependency issue
+
+ -- Pierre Gergondet <pierre.gergondet+ppa@gmail.com>  Wed, 22 Jan 2020 18:53:00 +0800
+
 choreonoid (1.7.0-1ubuntu2) unstable; urgency=medium
 
   * Build GRXUI plugin
